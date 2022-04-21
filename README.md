@@ -33,6 +33,10 @@ Extensible CMake toolchain for Switch homebrew development with devkitA64 and li
 ## Switch Homebrew
 
 ### File Formats
+ **The file formats made for the make file are:**
+    + [.ELF] (The one i had most trouble with.)
+    + [.NSO] (The intermediate process, it compresses the ELF file with ipv4)
+    + [.NRO] (The final product of the makefile process)
 
 ### devkitPro Ecosystem
 
